@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFileAlt } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Home: React.FC = () => {
     return (
@@ -22,21 +23,21 @@ const Home: React.FC = () => {
                     commitment to staying ahead of emerging trends.
                 </p>
                 <div className="flex flex-wrap justify-start items-center gap-6 mt-8 md:mt-10 animate-fadeIn delay-400">
-                    <a
-                        href="/contact"
+                    <Link
+                        to="/contact"
                         className="bg-blue-500 text-white px-6 py-3 md:px-10 md:py-5 rounded-lg text-lg md:text-xl font-semibold shadow-lg transform transition-transform hover:scale-105 hover:bg-blue-600"
                     >
                         Get in Touch!
-                    </a>
-                    <a
-                        href="/Aditya_Dhage_Resume_LinkedIn.pdf"
+                    </Link>
+                    <Link
+                        to="/Aditya_Dhage_Resume_LinkedIn.pdf"
                         className="border border-blue-500 text-blue-500 px-6 py-3 md:px-10 md:py-5 rounded-lg text-lg md:text-xl font-semibold hover:bg-blue-500 hover:text-white shadow-lg transform transition-transform hover:scale-105 flex items-center justify-center"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         <FaFileAlt className="text-2xl mr-2" />
                         <span>Resume</span>
-                    </a>
+                    </Link>
                 </div>
             </div>
 
