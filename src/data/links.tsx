@@ -13,7 +13,7 @@ export const contactDetails = [
     },
     {
         name: "GitHub",
-        link: "https://github.com/adi-sd",
+        link: "https://www.github.com/adi-sd",
         icon: <FaGithub className="text-2xl text-blue-500" />,
     },
     {
