@@ -12,7 +12,7 @@ const Skills: React.FC = () => {
                 <h2 className="text-4xl font-bold mb-6 md:mb-10 text-blue-500 text-center">Technical Skills</h2>
 
                 {/* Main Skills Card */}
-                <div className="grid grid-cols-1 md:grid-rows-1 md:grid-cols-5 gap-6">
+                <div className="grid grid-cols-1 md:grid-rows-1 md:grid-cols-6 gap-2">
                     {skills.map((skillSet, index) => (
                         <div key={index} className="bg-gray-900 p-4 rounded-lg shadow-lg">
                             {/* Skill Group Title */}

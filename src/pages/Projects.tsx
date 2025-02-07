@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaCode, FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { projects } from "../data/projects";
 import { FaDisplay } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Projects: React.FC = () => {
     const projectsPerPage = 9;
@@ -31,9 +32,9 @@ const Projects: React.FC = () => {
 
                 {/* Project Grid */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {currentProjects.map((project) => (
+                    {currentProjects.map((project, index) => (
                         <div
-                            key={project.id}
+                            key={index}
                             className="bg-gray-900 rounded-lg shadow-lg p-6 hover:scale-105 transition-transform duration-300 flex flex-col"
                         >
                             <h3 className="text-2xl font-semibold mb-2">{project.title}</h3>
@@ -42,25 +43,27 @@ const Projects: React.FC = () => {
                             </p>
                             <p className="text-gray-300 mb-4">{project.description}</p>
                             <div className="mt-auto flex items-center justify-between">
-                                <a
-                                    href={project.githubLink}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="text-blue-500 hover:text-blue-400 flex items-center gap-2"
-                                >
-                                    <FaCode className="text-xl" />
-                                    <span>View Code</span>
-                                </a>
+                                {project.githubLink && (
+                                    <Link
+                                        to={project.githubLink}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-blue-500 hover:text-blue-400 flex items-center gap-2"
+                                    >
+                                        <FaCode className="text-xl" />
+                                        <span>View Code</span>
+                                    </Link>
+                                )}
                                 {project.deploymentLink && (
-                                    <a
-                                        href={project.deploymentLink}
+                                    <Link
+                                        to={project.deploymentLink}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="text-blue-500 hover:text-blue-400 flex items-center gap-2"
                                     >
                                         <FaDisplay className="text-xl" />
                                         <span>View Deployment</span>
-                                    </a>
+                                    </Link>
                                 )}
                             </div>
                         </div>
