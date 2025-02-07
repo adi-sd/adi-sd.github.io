@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { FaCode, FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import { FaCode, FaArrowLeft, FaArrowRight, FaCheckCircle } from "react-icons/fa";
+import { RiProgress3Fill } from "react-icons/ri";
 import { projects } from "../data/projects";
 import { FaDisplay } from "react-icons/fa6";
 import { Link } from "react-router-dom";
@@ -35,8 +36,17 @@ const Projects: React.FC = () => {
                     {currentProjects.map((project, index) => (
                         <div
                             key={index}
-                            className="bg-gray-900 rounded-lg shadow-lg p-6 hover:scale-105 transition-transform duration-300 flex flex-col"
+                            className="relative bg-gray-900 rounded-lg shadow-lg p-6 hover:scale-105 transition-transform duration-300 flex flex-col"
                         >
+                            {/* Completion Status Icon */}
+                            <div className="absolute top-4 right-4 text-2xl">
+                                {project.isCompleted ? (
+                                    <FaCheckCircle className="text-green-500" title="Completed" />
+                                ) : (
+                                    <RiProgress3Fill className="text-yellow-400" title="In Progress" />
+                                )}
+                            </div>
+
                             <h3 className="text-2xl font-semibold mb-2">{project.title}</h3>
                             <p className="text-gray-400 mb-2">
                                 <b>Duration:</b> {project.date}
