@@ -54,10 +54,10 @@ export const projects = [
         isCompleted: true,
     },
     {
-        title: "EBay Window-Shopping Application",
+        title: "EBay Window-Shopping Application", // updated
         date: "September 2023",
         description: "Node.js, Angular, Swift, MongoDB, Google Cloud, eBay Open Source APIs",
-        githubLink: "https://github.com/adi-sd/adi-sd.github.io",
+        githubLink: "https://github.com/adi-sd/ebay-window-shopping-app",
         isCompleted: true,
     },
     {
