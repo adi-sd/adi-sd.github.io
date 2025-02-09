@@ -50,7 +50,7 @@ export const projects = [
         title: "Color Histogram Based Object Detection", // updated
         date: "October 2023",
         description: "Java, Maven, OpenCV",
-        githubLink: "https://github.com/adi-sd/csci-576-multimedia-systems/tree/main/assignment-2",
+        githubLink: "https://github.com/adi-sd/color-histogram-based-object-detection",
         isCompleted: true,
     },
     {
@@ -61,7 +61,7 @@ export const projects = [
         isCompleted: true,
     },
     {
-        title: "Portfolio Website",
+        title: "Portfolio Website", // updated
         date: "July 2023",
         description: "React.js, Vite, TypeScript, HTML, CSS, TailwindCSS, JavaScript, Google Fonts",
         githubLink: "https://github.com/adi-sd/portfolio",
