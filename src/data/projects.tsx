@@ -16,6 +16,14 @@ export const projects = [
         isCompleted: false,
     },
     {
+        title: "Crypto Board", // updated
+        date: "November 2024 - December 2024",
+        description:
+            "React, React Router, Material UI, dayjs, React Gauge Chart, Python, Django, Pymongo, MongoDB, TextBlob, Web Crawler, Docker",
+        githubLink: "https://github.com/ejpusc/CSCI578-CryptoBoard",
+        isCompleted: true,
+    },
+    {
         title: "Next.js Auth Toolbox", // updated
         date: "June 2024 - July 2024",
         description: "TypeScript, React.js, Next.js, Auth.js, Next-Auth, Tailwind CSS",
