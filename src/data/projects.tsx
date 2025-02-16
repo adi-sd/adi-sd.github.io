@@ -72,7 +72,7 @@ export const projects = [
         title: "Portfolio Website", // updated
         date: "July 2023",
         description: "React.js, Vite, TypeScript, HTML, CSS, TailwindCSS, JavaScript, Google Fonts",
-        githubLink: "https://github.com/adi-sd/portfolio",
+        githubLink: "https://github.com/adi-sd/adi-sd.github.io",
         deploymentLink: "https://adi-sd.github.io/",
         isCompleted: true,
     },
