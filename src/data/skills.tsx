@@ -29,8 +29,20 @@ import { VscSymbolInterface } from "react-icons/vsc";
 import { TbBrandOauth } from "react-icons/tb";
 import { GiTeePipe } from "react-icons/gi";
 import { TbScript } from "react-icons/tb";
+import { ReactNode } from "react";
 
-export const skills = [
+
+export type Skill = {
+    name: string;
+    icon: ReactNode;
+};
+
+export type SkillCategory = {
+    category: string;
+    skills: Skill[];
+};
+
+export const skills: SkillCategory[] = [
     {
         category: "Languages",
         skills: [

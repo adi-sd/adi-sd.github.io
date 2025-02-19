@@ -1,10 +1,20 @@
-export const projects = [
+export type Project = {
+    title: string;
+    date: string;
+    description: string;
+    githubLink?: string;
+    deploymentLink?: string;
+    isCompleted: boolean;
+};
+
+export const projects: Project[] = [
     {
         title: "One-Clip", // updated
         date: "January 2025 - Current",
         description:
             "Next.js, Next-Auth, Typescript, React, HTML, TailwindCSS, Google OAuth Sign In, Mongo Db, Prisma ORM",
         githubLink: "https://github.com/adi-sd/one-clip",
+        deploymentLink: "https://one-clip.vercel.app/",
         isCompleted: false,
     },
     {

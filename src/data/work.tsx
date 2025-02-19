@@ -1,4 +1,17 @@
-export const workExperience = [
+export type WorkExperience = {
+    companyDetails: {
+        title: string;
+        company: string;
+        location: string;
+        dates: string;
+        duration: string;
+    };
+    summary: string;
+    keyContributions: string[];
+    achievements: string[];
+};
+
+export const workExperience: WorkExperience[] = [
     {
         companyDetails: {
             title: "Software Developer",

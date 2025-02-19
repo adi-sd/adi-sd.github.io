@@ -1,4 +1,20 @@
-export const personalInfo = {
+export type PersonalInfo = {
+    name: string;
+    location: string;
+    age: number;
+    birthdate: string;
+    hometown: string;
+    profession: string;
+    education: {
+        title: string;
+        institution: string;
+        duration: string;
+        courses: string[];
+    }[];
+    interests: string[];
+};
+
+export const personalInfo: PersonalInfo = {
     name: "Aditya Sanjay Dhage",
     location: "Los Angeles, CA, USA",
     age: 28,

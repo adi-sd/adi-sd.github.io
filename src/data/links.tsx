@@ -1,6 +1,9 @@
+import { ReactNode } from "react";
 import { FaInstagram, FaLinkedin, FaGithub, FaEnvelope, FaFileAlt } from "react-icons/fa";
 
-export const contactDetails = [
+export type SocialLink = { name: string; link: string; icon: ReactNode };
+
+export const contactDetails: SocialLink[] = [
     {
         name: "Instagram",
         link: "https://www.instagram.com/adi.s.d/",
