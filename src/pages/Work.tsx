@@ -10,7 +10,7 @@ const Work: React.FC = () => {
         >
             <div className="container mx-auto px-6 py-10">
                 {/* Section Title */}
-                <h2 className="text-4xl font-bold mb-6 md:mb-10 text-blue-500 text-center ">Work Experience</h2>
+                <h2 className="text-4xl font-bold mb-6 text-blue-500 text-center ">Work Experience</h2>
 
                 {/* Work Experience Cards */}
                 <div className="grid grid-cols-1 gap-6 md:gap-12 items-start">
@@ -61,7 +61,7 @@ const Work: React.FC = () => {
                                     <h4 className="text-lg md:text-xl font-semibold text-blue-500 mb-4">
                                         Key Contributions
                                     </h4>
-                                    <div className="flex flex-col gap-2 text-gray-300">
+                                    <div className="h-[94%] flex flex-col items-center justify-between text-gray-300">
                                         {work.keyContributions.map((item, idx) => (
                                             <div key={idx} className="flex gap-x-2 min-w-0">
                                                 <FaCircle size={10} className="flex-none mt-[6px]" />

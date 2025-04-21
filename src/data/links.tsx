@@ -26,7 +26,7 @@ export const contactDetails: SocialLink[] = [
     },
     {
         name: "Resume",
-        link: "/Aditya_Dhage_Resume_LinkedIn.pdf",
+        link: "/Aditya_Dhage_Full_Stack_4Y_Resume_Public.pdf",
         icon: <FaFileAlt className="text-2xl text-blue-500" />,
     },
 ];

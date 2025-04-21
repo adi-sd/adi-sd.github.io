@@ -12,7 +12,7 @@ const About: React.FC = () => {
         >
             <div className="container mx-auto px-6 py-10 h-full">
                 {/* Section Title */}
-                <h2 className="text-4xl font-bold mb-6 md:mb-10 text-blue-500 text-center">About</h2>
+                <h2 className="text-4xl font-bold mb-6 text-blue-500 text-center">About</h2>
 
                 {/* Two-Column Layout */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 items-start">
