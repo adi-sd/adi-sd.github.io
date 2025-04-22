@@ -40,6 +40,7 @@ import {
     SiApachekafka,
     SiGrafana,
     SiEslint,
+    SiMysql,
 } from "react-icons/si";
 import { BiNetworkChart } from "react-icons/bi";
 import { GiWaterSplash } from "react-icons/gi";
@@ -103,6 +104,7 @@ export const skills: SkillCategory[] = [
     {
         category: "Databases",
         skills: [
+            { name: "MySQL", icon: <SiMysql className="text-3xl text-yellow-500" /> },
             { name: "MongoDB", icon: <SiMongodb className="text-3xl text-green-500" /> },
             { name: "PostgreSQL", icon: <SiPostgresql className="text-3xl text-blue-500" /> },
             { name: "Oracle DB", icon: <SiOracle className="text-3xl text-red-600" /> },
