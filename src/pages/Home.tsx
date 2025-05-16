@@ -31,7 +31,7 @@ const Home: React.FC = () => {
                         Get in Touch!
                     </NavLink>
                     <NavLink
-                        to="/Aditya_Dhage_Full_Stack_4Y_Resume_Public.pdf"
+                        to="/Aditya_Dhage_Full_Stack_4Y_Public_Resume.pdf"
                         end
                         className="border border-blue-500 text-blue-500 px-6 py-3 md:px-10 md:py-5 rounded-lg text-lg md:text-xl font-semibold hover:bg-blue-500 hover:text-white shadow-lg transform transition-transform hover:scale-105 flex items-center justify-center"
                         target="_blank"
