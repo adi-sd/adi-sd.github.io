@@ -14,7 +14,7 @@ export type WorkExperience = {
 export const workExperience: WorkExperience[] = [
     {
         companyDetails: {
-            title: "Software Developer",
+            title: "Software Developer (Full-Stack)",
             company: "Hansen Technologies",
             location: "Pune, MH, India",
             dates: "August 1st, 2018 - November 30th, 2022",

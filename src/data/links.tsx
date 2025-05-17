@@ -3,6 +3,8 @@ import { FaInstagram, FaLinkedin, FaGithub, FaEnvelope, FaFileAlt } from "react-
 
 export type SocialLink = { name: string; link: string; icon: ReactNode };
 
+export const RESUME_FILE_PATH = "/Aditya_Dhage_SDE_4Y_Public_Resume.pdf";
+
 export const contactDetails: SocialLink[] = [
     {
         name: "Instagram",
@@ -26,7 +28,7 @@ export const contactDetails: SocialLink[] = [
     },
     {
         name: "Resume",
-        link: "/Aditya_Dhage_Full_Stack_4Y_Public_Resume.pdf",
+        link: RESUME_FILE_PATH,
         icon: <FaFileAlt className="text-2xl text-blue-500" />,
     },
 ];
