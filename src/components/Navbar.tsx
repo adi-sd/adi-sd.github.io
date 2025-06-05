@@ -37,8 +37,8 @@ const Navbar: React.FC = () => {
     const toggleMenu = () => setMenuOpen(!menuOpen);
 
     return (
-        <header className="w-full bg-gray-900 text-white fixed top-0 left-0 z-50 shadow-md">
-            <nav className="container mx-auto flex justify-between items-center px-6 py-4 transition-all duration-300">
+        <header className="h-[80px] w-full bg-gray-900 text-white fixed top-0 left-0 z-50 shadow-md">
+            <nav className="h-full container mx-auto flex justify-between items-center px-6 py-4 transition-all duration-300">
                 {/* Logo */}
                 <div className="flex items-center whitespace-nowrap transition-all duration-300">
                     <a href="/">

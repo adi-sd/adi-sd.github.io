@@ -7,12 +7,12 @@ const Layout: React.FC = () => {
     return (
         <div className="h-screen w-screen flex flex-col">
             {/* Navbar */}
-            <div className="h-[4rem] w-full">
+            <div className="h-[80px] w-full">
                 <Navbar />
             </div>
 
             {/* Main Content */}
-            <div className="h-[calc(100vh-4rem)] w-full">
+            <div className="h-[calc(100vh-80px)] w-full">
                 <MainContent />
             </div>
 

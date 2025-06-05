@@ -14,6 +14,23 @@ export type WorkExperience = {
 export const workExperience: WorkExperience[] = [
     {
         companyDetails: {
+            title: "Software Engineer (Full-Stack)",
+            company: "One Pacific Hub",
+            location: "Long Beach, California, USA",
+            dates: "Feb 10th, 2025 - Present",
+            duration: "5 Months",
+        },
+        summary:
+            "Developed a full-stack e-commerce platform while managing project milestones, coordinated directly with the CEO, and delivered progress updates in a fast-paced remote setting",
+        keyContributions: [
+            "Architected and built a full-stack e-commerce platform from scratch using Next.js, Node.js, and PostgreSQL, tailored for the unique logistics of an import-export business.",
+            "Implemented core shopping features including product catalog, dynamic cart, and order management with secure, role-based access and real-time user feedback.",
+            "Led solo development cycle, driving technical decisions, stakeholder updates, and agile milestone planning while maintaining scalable, maintainable codebase standards.",
+        ],
+        achievements: [],
+    },
+    {
+        companyDetails: {
             title: "Software Developer (Full-Stack)",
             company: "Hansen Technologies",
             location: "Pune, MH, India",
