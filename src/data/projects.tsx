@@ -9,6 +9,15 @@ export type Project = {
 
 export const projects: Project[] = [
     {
+        title: "Song Pool", // updated
+        date: "March 2025 - June 2025",
+        description:
+            "Next.js, Next-Auth, Typescript, Socket.io, PostgresQL, React, HTML, TailwindCSS, Spotify Web APIs",
+        githubLink: "https://github.com/adi-sd/song-pool-app",
+        deploymentLink: "https://song-pool.onrender.com/",
+        isCompleted: true,
+    },
+    {
         title: "One-Clip", // updated
         date: "February 2025 - April 2025",
         description:
@@ -16,14 +25,6 @@ export const projects: Project[] = [
         githubLink: "https://github.com/adi-sd/one-clip",
         deploymentLink: "https://one-clip.vercel.app/",
         isCompleted: true,
-    },
-    {
-        title: "Song Pool", // updated
-        date: "June 2024 - Current",
-        description: "Next.js, Next-Auth, Typescript, React, HTML, TailwindCSS, Spotify Web APIs",
-        githubLink: "https://github.com/adi-sd/song-pool",
-        deploymentLink: "https://song-pool.vercel.app/",
-        isCompleted: false,
     },
     {
         title: "Crypto Board", // updated
