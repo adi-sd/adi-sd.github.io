@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Logo from "./Logo"; // Import the logo component
+import { twJoin } from "tailwind-merge";
 
 // Constants for navigation links
 const NAV_LINKS = [
@@ -37,7 +38,7 @@ const Navbar: React.FC = () => {
     const toggleMenu = () => setMenuOpen(!menuOpen);
 
     return (
-        <header className="h-[80px] w-full bg-gray-900 text-white fixed top-0 left-0 z-50 shadow-md">
+        <header className={twJoin("h-[80px] w-full text-white fixed top-0 left-0 z-50 bg-gray-900")}>
             <nav className="h-full container mx-auto flex justify-between items-center px-6 py-4 transition-all duration-300">
                 {/* Logo */}
                 <div className="flex items-center whitespace-nowrap transition-all duration-300">

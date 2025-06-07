@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from "../common/Navbar";
 // import Footer from "./Footer";
-import MainContent from "./MainContent";
+import MainContent from "../MainContent";
 
 const Layout: React.FC = () => {
     return (

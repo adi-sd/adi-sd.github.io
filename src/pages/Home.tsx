@@ -7,9 +7,9 @@ const Home: React.FC = () => {
     return (
         <section className="w-full h-full flex flex-col md:flex-row items-center bg-gray-900 text-white overflow-hidden relative">
             {/* Text Section */}
-            <div className="z-20 w-full md:w-3/4 px-8 flex flex-col gap-4 md:px-16 py-12 md:py-0 text-gray-300">
+            <div className="z-20 w-full md:w-3/4 px-8 flex flex-col gap-2 md:px-16 py-12 md:py-0 text-gray-300">
                 <p className="text-lg text-blue-500 mb-4 md:text-3xl animate-fadeIn">Hi There! 👋</p>
-                <h1 className="text-4xl md:text-[6rem] font-bold md:my-6 leading-tight animate-slideIn">
+                <h1 className="text-4xl md:text-[5rem] font-bold leading-tight animate-slideIn">
                     <span>I'm </span>
                     <span className="text-blue-500">Aditya Dhage</span>,
                 </h1>
