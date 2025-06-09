@@ -17,6 +17,10 @@ export const projects: Project[] = [
         githubLink: "https://github.com/adi-sd/song-pool-app",
         deploymentLink: "https://song-pool.onrender.com/",
         isCompleted: true,
+        description: [
+            "Designed and implemented a collaborative music curation platform for ambient environments (cafes, co-working spaces), allowing patrons to vote on what music plays in real-time",
+            "Integrated Spotify Web API for central music control, managed real-time user sessions, created real-time voting and music recommendations system for ambient music curation according to the majority of patrons' taste",
+        ],
     },
     {
         title: "One-Clip", // updated
@@ -26,6 +30,10 @@ export const projects: Project[] = [
         githubLink: "https://github.com/adi-sd/one-clip",
         deploymentLink: "https://one-clip.vercel.app/",
         isCompleted: true,
+        description: [
+            "Built a cloud-synced clipboard app with instant copy-paste functionality and rich-text support, optimized for personal productivity and mobile use",
+            "Integrated Google OAuth via NextAuth for secure login; used Prisma ORM to manage user-specific data and clip storage on MongoDB Atlas",
+        ],
     },
     {
         title: "Crypto Board", // updated
@@ -34,6 +42,11 @@ export const projects: Project[] = [
             "React, React Router, Material UI, dayjs, React Gauge Chart, Python, Django, Pymongo, MongoDB, TextBlob, Web Crawler, Docker",
         githubLink: "https://github.com/ejpusc/CSCI578-CryptoBoard",
         isCompleted: true,
+        description: [
+            "Developed a full-stack cryptocurrency dashboard with real-time price tracking, volume metrics, and social sentiment analysis",
+            "Scraped and parsed crypto-related text data, using TextBlob for NLP-based sentiment scoring",
+            "Deployed frontend (React) and backend (Django) services with Docker and GCP",
+        ],
     },
     {
         title: "Next.js Auth Toolbox", // updated
@@ -66,8 +79,8 @@ export const projects: Project[] = [
         githubLink: "https://github.com/adi-sd/csci-576-final-project",
         isCompleted: true,
         description: [
-            "Developed a video library preprocessing algorithm (shot boundary detection, frame histogram calculation and hashing) in Python to streamline video data indexing and retrieval with an interactive desktop video player interface (PyQt5)",
-            " Enabled querying the library using a short video clip as input, achieving precise frame matches with an average lookup time of 200–300 ms for a 100+ video database",
+            "Developed a video library pre-processing algorithm (shot boundary detection, frame histogram calculation and hashing) in Python to streamline video data indexing and retrieval with an interactive desktop video player interface (PyQt5)",
+            "Enabled querying the library using a short video clip as input, achieving precise frame matches with an average lookup time of 200–300 ms for a 100+ video database",
         ],
     },
     {
