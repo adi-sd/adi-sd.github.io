@@ -14,11 +14,27 @@ export type WorkExperience = {
 export const workExperience: WorkExperience[] = [
     {
         companyDetails: {
+            title: "Software Engineer II",
+            company: "Bitcot Inc.",
+            location: "Los Angeles, California, USA",
+            dates: "August 2025 - Present",
+            duration: "2 Months",
+        },
+        summary:
+            "Developing a healthcare dashboard with various features including a chatbot that leverages a large language model (LLM) to assist healthcare professionals with patient-related queries",
+        keyContributions: [
+            "Designed and developed a one-way synchronous chatbot for a healthcare LLM responding to healthcare professionals' queries about patient appointments, records, labs, and imaging.",
+            "Led the conversation between the onshore lead and the architect with the offshore developers, helping establish a mutual understanding and seamless collaboration between the two teams working from Central and Indian time zones.",
+        ],
+        achievements: [],
+    },
+    {
+        companyDetails: {
             title: "Software Engineer (Full-Stack)",
             company: "One Pacific Hub",
             location: "Long Beach, California, USA",
-            dates: "Feb 10th, 2025 - Present",
-            duration: "5 Months",
+            dates: "February 2025 - August 2025",
+            duration: "6 Months",
         },
         summary:
             "Developed a full-stack e-commerce platform while managing project milestones, coordinated directly with the CEO, and delivered progress updates in a fast-paced remote setting",
@@ -34,7 +50,7 @@ export const workExperience: WorkExperience[] = [
             title: "Software Developer (Full-Stack)",
             company: "Hansen Technologies",
             location: "Pune, MH, India",
-            dates: "August 1st, 2018 - November 30th, 2022",
+            dates: "August 2018 - November 2022",
             duration: "4 Years, 4 Months",
         },
         summary:

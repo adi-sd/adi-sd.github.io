@@ -55,6 +55,11 @@ export const projects: Project[] = [
         githubLink: "https://github.com/adi-sd/nextjs-auth-toolbox",
         deploymentLink: "https://nextjs-auth-toolbox.vercel.app/",
         isCompleted: true,
+        description: [
+            "Created a comprehensive authentication toolbox for Next.js applications, simplifying the integration of various authentication methods including OAuth providers (Google, GitHub), email/password, and magic links",
+            "Implemented secure session management, role-based access control, and user profile management using Auth.js and Next-Auth",
+            "Provided extensive documentation and examples to facilitate easy adoption by developers",
+        ],
     },
     {
         title: "Task It", // updated
@@ -63,6 +68,11 @@ export const projects: Project[] = [
         githubLink: "https://github.com/adi-sd/task-it",
         deploymentLink: "https://task-it-beige.vercel.app/",
         isCompleted: true,
+        description: [
+            "Developed a task management web application with user authentication, allowing users to create, edit, and organize tasks into projects",
+            "Implemented features such recycle bin, drag-and-drop task organization using React and TailwindCSS for a responsive UI",
+            "Integrated Next-Auth for secure user authentication and session management with Google SSO",
+        ],
     },
     {
         title: "Spotify Clone", // updated
@@ -71,6 +81,12 @@ export const projects: Project[] = [
         githubLink: "https://github.com/adi-sd/spotify-clone",
         deploymentLink: "https://spotify-clone-mauve-six.vercel.app/",
         isCompleted: true,
+        description: [
+            "Built a self upload mp3 music player web app with a sleek, responsive UI inspired by Spotify",
+            "Implemented user authentication using Next-Auth with Google SSO, allowing users to securely log in and manage their music library",
+            "Developed core features including music playback, playlist creation, and search functionality using React and TailwindCSS",
+            "Implemented a two-tier subscription model with free and premium plans using Stripe Webhooks",
+        ],
     },
     {
         title: "Video Library Search with Video Clip Query", // updated
@@ -89,6 +105,11 @@ export const projects: Project[] = [
         technologies: "Java, Maven, OpenCV",
         githubLink: "https://github.com/adi-sd/color-histogram-based-object-detection",
         isCompleted: true,
+        description: [
+            "Implemented a color histogram-based object detection algorithm in Java using OpenCV, achieving an average precision of 85%",
+            "Developed a user-friendly GUI to facilitate image uploads and display detection results with bounding boxes and confidence scores",
+            "Supports multiple object detection and different sized objects in a single image",
+        ],
     },
     {
         title: "EBay Window-Shopping Application", // updated
@@ -96,6 +117,9 @@ export const projects: Project[] = [
         technologies: "Node.js, Angular, Swift, MongoDB, Google Cloud, eBay Open Source APIs",
         githubLink: "https://github.com/adi-sd/ebay-window-shopping-app",
         isCompleted: true,
+        description: [
+            "Developed a full-stack e-commerce web and iOS application using Node.js, Angular, and Swift, integrating eBay's open-source APIs for product search and details",
+        ],
     },
     {
         title: "Portfolio Website", // updated
@@ -104,6 +128,11 @@ export const projects: Project[] = [
         githubLink: "https://github.com/adi-sd/adi-sd.github.io",
         deploymentLink: "https://adi-sd.github.io/",
         isCompleted: true,
+        description: [
+            "Designed and developed a personal portfolio website to showcase projects, skills, and work experience",
+            "Implemented a responsive design using React.js and TailwindCSS, ensuring optimal viewing across devices",
+            "Deployed the website using GitHub Pages for easy access and sharing",
+        ],
     },
     {
         title: "Bulk Resume Shortlisting",
