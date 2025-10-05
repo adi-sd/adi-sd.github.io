@@ -51,7 +51,7 @@ function ProjectDialogContent({ project }: ProjectDialogContentProps) {
                             to={project.githubLink}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-blue-500 hover:text-blue-400 flex items-center py-2 px-4 bg-gray-600/50 rounded-md hover:bg-gray-600/75"
+                            className="text-blue-500 hover:text-blue-400 flex items-center py-2 px-4 gap-2 bg-gray-600/50 rounded-md hover:bg-gray-600/75"
                         >
                             <FaCode className="text-ld md:text-xl" />
                             <span>View Code</span>
@@ -62,7 +62,7 @@ function ProjectDialogContent({ project }: ProjectDialogContentProps) {
                             to={project.deploymentLink}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-blue-500 hover:text-blue-400 flex items-center py-2 px-4 bg-gray-600/50 rounded-md hover:bg-gray-600/75"
+                            className="text-blue-500 hover:text-blue-400 flex items-center py-2 px-4 gap-2 bg-gray-600/50 rounded-md hover:bg-gray-600/75"
                         >
                             <FaDisplay className="text-ld md:text-xl" />
                             <span>View Deployment</span>
