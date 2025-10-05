@@ -14,7 +14,7 @@ export const projects: Project[] = [
         date: "March 2025 - June 2025",
         technologies:
             "Next.js, Next-Auth, Typescript, Socket.io, PostgresQL, React, HTML, TailwindCSS, Spotify Web APIs",
-        githubLink: "https://github.com/adi-sd/song-pool-app",
+        githubLink: "https://github.com/adi-sd/song-pool",
         deploymentLink: "https://song-pool.onrender.com/",
         isCompleted: true,
         description: [
